@@ -111,3 +111,17 @@ p {
         transform: translateX(45vw);
     }
 }
+
+.rotate {
+    animation: rotation 30s ease-in-out infinite alternate;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
